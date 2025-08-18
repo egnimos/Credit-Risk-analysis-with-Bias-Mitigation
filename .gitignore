@@ -1,0 +1,50 @@
+# Web build artifacts
+*.html
+*.css
+*.js
+# If you need to track specific web files, use exceptions like:
+# !templates/*.html
+# !static/css/main.css
+# !static/js/main.js
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Data files
+*.pkl
+*.csv
+*.xlsx
+# Consider tracking sample data:
+# !data/samples/*.csv
+
+# Model files
+/saved_models/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
